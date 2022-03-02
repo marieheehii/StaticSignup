@@ -1,0 +1,65 @@
+body{
+    background-color: bisque;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+
+}
+header{
+    background-color: whitesmoke;
+    text-align: right;
+    padding: .75rem 0;
+    border-bottom: solid 1px dimgrey;
+    box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+
+}
+header a {
+    color: white;
+    background-color: #13a0ff;
+    border: solid 1px gray;
+    border-radius: 3px;
+    padding: .25rem .5rem;
+    margin-right: .5rem;
+    line-height: 1.5rem;
+    text-decoration: none;
+
+
+    
+
+}
+header a :hover{
+ background-color: gray;
+ cursor: pointer;
+}
+.container{
+    margin: auto;
+    background-color: white;
+    padding: 1.5rem;
+    border: solid 1.5 gray;
+    border-radius: 5px;
+    box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container > h1 {
+
+    margin: 0 0 .5rem;
+
+}
+input {
+    padding: 3px;
+    margin: 5px;
+}
+button{
+    border-radius: 5px;
+
+}
+button :hover{
+    background-color: gray;
+}
